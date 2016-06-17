@@ -4,4 +4,9 @@
 
 @implementation FISGorgeOfEternalPerilViewController
 
+- (IBAction)acceptFateButton:(id)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end
